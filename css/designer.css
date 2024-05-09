@@ -1,0 +1,52 @@
+.back-section-1 > h3 {
+    font-size: 20px;
+    margin: 40px 0 24px 0;
+}
+
+.back-section-1 > p {
+    color: black;
+}
+
+.true-images {
+    display: flex;
+    gap: 10px;
+    padding: 16px 20px 0 20px;
+}
+
+.true-images-1 {
+    display: grid;
+    gap: 16px;
+}
+
+.true-texts {
+    display: grid;
+    gap: 16px;
+}
+
+.responsibilities-section > h1 {
+    font-size: 20px;
+    padding: 24px 20px 24px 20px;
+}
+
+.responsibilities-section > button {
+    width: 180px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #7152F3;
+    border: 1px solid #7152F3;
+    color: white;
+    font-size: 16px;
+    margin: 40px 0 0px 20px;
+}
+
+
+.background-6 {
+    width: 100%;
+    background-color: #7152F3;
+    margin-top: 160px;
+}
+
+.background-8 {
+    width: 100%;
+    background-color: black;
+}

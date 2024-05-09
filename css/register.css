@@ -1,0 +1,114 @@
+.register-section-1 {
+    width: 60%;
+    padding: 249px 20px 500px 92px;
+    background-color: #352B69;
+    height: 100%;
+    margin-left: -20px;
+}
+
+body, html {
+    overflow: hidden !important;
+}
+
+.register-section-1 > h1 {
+    font-size: 36px;
+    max-width: 500px;
+    color: white;
+    margin: 32px 0 16px 0;
+}
+
+.register-section-1 > p {
+    color: white;
+    max-width: 600px;
+}
+
+.register-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px 0 20px;
+}
+
+.register-section-2 {
+    margin: 150px 0 0 0px;
+}
+
+.register-section-2 > h1 {
+    font-size: 30px;
+}
+
+.register-section-2 > p {
+    columns: #A1A1A1;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 8px;
+}
+
+.email-and-password-section-1 > h2 {
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 24px;
+}
+
+.email-and-password-section-1 > input {
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #7152F3;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+.checkbox-1 {
+    margin: 25px 0 24px 0;
+    display: flex;
+    gap: 8px;
+}
+
+.checkbox-1 > h1 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.checkbox > h1 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-and-register-1 {
+    display: grid;
+    gap: 12px;
+}
+
+.login-and-register-1 > button {
+    background-color: #7152F3;
+    padding: 15px 10px 15px 20px;
+    width: 100%;
+    border: 1px solid #7152F3;
+    border-radius: 8px;
+}
+
+.login-and-register-1 > button > a {
+    color: white;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+    .register-section-1 {
+        display: none;
+    }
+
+    .register-section-2 {
+        margin: 0 auto;
+    }
+
+    .register-section-2 > h1 {
+        margin-top: 150px;
+    }
+}

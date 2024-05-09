@@ -1,0 +1,47 @@
+.pricing-section-3 {
+    padding: 80px 20px 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.likes-and-comments {
+    display: flex;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.product-section-1 {
+    padding: 0px 10px 0px 10px;
+}
+
+.product-section-1 > h1 {
+    font-size: 52px;
+}
+
+.likes > h1 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 16px;
+}
+
+.introducing > h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.introducing > p {
+    color: #7B7B7B;
+    font-style: 16px;
+    font-weight: 300;
+    max-width: 670px;
+    margin: 8px 0 16px 0;
+}
+
+.introducing > img {
+    max-width: 100%;
+}
